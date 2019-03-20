@@ -9,12 +9,12 @@ MongoDB
 Java compatible IDE
 
 It consists of three projects.
-__CollectRsvpsAndSendToKafka:__
+__CollectSendToKafka:__
 This program acts as a collector. It reads the input stream from the MeetupRSVP and send it to Kafka.
 
-__SparkKafkaToDstreamToMongoDB:__
+__SparkKafkaToMongo:__
 Reads the message from Kafka queue, processes it and inserts the final output in to MongoDB.
 
-__MongoDBReactiveWebClientSSE:__
+__MongoReactiveWebSSE:__
 It consists of a web page that uses a server sent event to display contents of MongoDB on MAP UI as they become available.
 
