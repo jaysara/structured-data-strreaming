@@ -11,8 +11,11 @@ Java compatible IDE
 __Environment Setup__
 
 This setup uses Kafka, Mongo and Java (1.8). Make sure you have all those available to you.
+
 To get help with Kafka setup visit https://kafka.apache.org/quickstart
+
 For mongo setup , refer to https://docs.mongodb.com/manual/installation/
+
 
 ___Kafka Setup:___
 
