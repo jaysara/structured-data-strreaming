@@ -1,6 +1,6 @@
 # structured-data-strreaming
 # Data Stream Development with Apache Spark, Kafka, and Spring Boot
-This is the code repository for article at linkedin. It contains all the supporting project files necessary to work through the video course from start to finish.
+This is the code repository for article at linkedin. It contains all the supporting project files.
 ### Technical Requirements
 This course has the following software requirements:<br/>
 Java 8
