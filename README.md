@@ -39,3 +39,5 @@ Reads the message from Kafka queue, processes it and inserts the final output in
 __MongoReactiveWebSSE:__
 It consists of a web page that uses a server sent event to display contents of MongoDB on MAP UI as they become available.
 
+__Reference__
+* https://livebook.manning.com/book/streaming-data/chapter-9/
