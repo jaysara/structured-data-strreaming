@@ -3,9 +3,9 @@
 This is the code repository for article at linkedin. It contains all the supporting project files.
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Java 8
-Kafka
-MongoDB
+Java 11
+Kafka(2.13)
+MongoDB (using Atlas Freetier on MongoDB Cloud)
 Java compatible IDE
 
 __Environment Setup__
@@ -21,7 +21,10 @@ ___Kafka Setup:___
 
 Start Zookeeper and Kafka Broker server. If you are using service offering from your enterprise, make sure you are connected to the appropriate instances.
 Create a topic named ‘rsvpTopic’ on your kafka cluster. (following command for local zookeeper and kafka broker)
-./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic rsvpTopic
+``` 
+./bin/kafka-topics.sh --create --topic rsvpTopic --bootstrap-server localhost:9092
+```
+The above command will use defualt partition of 1 with replication-factor of 1.
 
 ___Mongo Setup___
 * Creat a mongo database named 'rsvpDB' and create ‘capped’ collection named ‘meetups’ in  rsvpDB.
